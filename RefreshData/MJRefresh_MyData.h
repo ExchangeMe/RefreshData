@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 +(MJRefresh_MyData *)getData;
 
-@property (assign, nonatomic) NSInteger dataType ;
+@property (copy, nonatomic) NSString * dataType ;
 
 @property (copy, nonatomic) NSString * data ;
 
@@ -60,7 +60,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (copy, nonatomic) NSString * conservative ;
 
 @property (copy, nonatomic) NSString * homogeneous ;
-
 
 @end
 
