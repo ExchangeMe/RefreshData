@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.author             = { "sk_lufeng" => "sk_lufeng@163.com" }
   s.platform = :ios,'9.0'
   s.source       = { :git => "https://github.com/ExchangeMe/RefreshData.git", :tag => "0.0.1" }
-  s.source_files  = "RefreshData/RefreshData/*.{h，m}"
+  s.source_files  = "RefreshData/*.{h,m}"
   s.requires_arc = true
 end
